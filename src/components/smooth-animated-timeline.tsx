@@ -63,13 +63,13 @@ export function SmoothAnimatedTimeline() {
       <h1 className="text-4xl font-bold text-center mb-12">Biographie</h1>
       <Timeline>
         {timelineEvents.map((event, index) => (
-          <TimelineItem   key={index}
-          year={Number(event.year)} // Explicit conversion here
-          title={event.title}
-          description={event.description}
-          imageSrc={event.imageSrc}
-          imageAlt={event.imageAlt}
-          index={index} />
+          <TimelineItem key={index}
+            year={Number(event.year)} // Explicit conversion here
+            title={event.title}
+            description={event.description}
+            imageSrc={event.imageSrc}
+            imageAlt={event.imageAlt}
+            index={index} />
         ))}
       </Timeline>
     </div>
@@ -108,7 +108,7 @@ function TimelineItem({
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.5, ease: "easeOut" },
+      transition: { duration: 0.5, ease: "easeOut" as const },
     },
   };
 
@@ -121,18 +121,16 @@ function TimelineItem({
       className="mb-16"
     >
       <div
-        className={`flex items-center mb-4 ${
-          index % 2 === 0 ? "justify-start" : "justify-end"
-        }`}
+        className={`flex items-center mb-4 ${index % 2 === 0 ? "justify-start" : "justify-end"
+          }`}
       >
         <div className="bg-primary text-primary-foreground text-4xl font-bold py-2 px-6 rounded-full shadow-lg">
           {year}
         </div>
       </div>
       <Card
-        className={`flex flex-col ${
-          index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
-        }`}
+        className={`flex flex-col ${index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
+          }`}
       >
         <CardContent className="flex-1 p-6">
           <h3 className="text-2xl font-semibold mb-2">{title}</h3>

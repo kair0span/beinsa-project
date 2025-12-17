@@ -13,7 +13,7 @@ const lectureSections: Section[] = [
     ],
   },
   {
-    title: " Die Wissenschaft von den harmonischen Bewegungen",
+    title: "Die Wissenschaft von den harmonischen Bewegungen",
     content: [
       "Das Wort Paneurhythmie setzt sich aus drei Stammwörtern zusammen: der Vorsilbe „pan“ (ganz, all, allumfassend, kosmisch), der zweiten Vorsilbe „eu“ aus dem Griechischen (gut, wohl). Eu“ ist das, aus dem alles entspringt, es bedeutet den Kern, das Wesentliche, das Reale in der Welt. Und Rhythmus bedeutet Gleichmaß der Bewegung oder jedes äußeren Ausdrucks der Dinge. Die Vorsilbe „pan-“ weist auf einen Rhythmus hin, der in der ganzen Natur herrscht und die Grundlage des Daseins bestimmt. Daher können wir das Wort „Paneurhythmie“ seiner Herkunft nach auch als „der allumfassende wohltuende Rhythmus“ wiedergeben.",
       "Den eigentlichen Sinn des Wortes “Paneurhythmie” hat Peter Dunov durch den folgenden Satz erklärt: „Die Paneurhythmie ist ein bewusster Austausch mit den Kräften der lebendigen Natur.“ Die Natur war für ihn der Ausdruck aller geistigen Hierarchien.",
